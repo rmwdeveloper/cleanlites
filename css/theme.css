@@ -21,6 +21,8 @@ Author:	ewebcraft
 10.0 Footer
 11.0 Inventory Page
 12.0 Sidebar
+13.0 Custom 
+ 13.1 Downloadable Collateral
 -------------------------------------------------------------------*/
 /*---------------------------------------------------------------
 [1.0 Reset ]
@@ -4853,4 +4855,36 @@ padding-top:20px;
 .Testimonial {
   background: url(../images/testimonial-bg.jpg);
   background-size: cover; 
+}
+
+/*---------------------------------------------------------------
+[13.0 Custom  ]
+*/
+
+/*---------------------------------------------------------------
+[13.1 Downloadable Collateral  ]
+*/
+
+#downloadable-collateral .downloadable-item{
+  text-align: center;
+
+}
+#downloadable-collateral .downloadable-item img{
+  border-radius: 100%;
+  margin-bottom: 19px;
+}
+#downloadable-collateral .row {
+  display: -webkit-box;  /* OLD - iOS 6-, Safari 3.1-6, BB7 */
+  display: -ms-flexbox;  /* TWEENER - IE 10 */
+  display: -webkit-flex; /* NEW - Safari 6.1+. iOS 7.1+, BB10 */
+  display: flex;         /* NEW, Spec - Firefox, Chrome, Opera */
+  -webkit-justify-content: center; 
+  justify-content: center; 
+}
+#downloadable-collateral .downloadable-item a.square-button{
+  color: #fff;
+  background-color: #f37321;
+  display: inline-block;
+  font-size: 12px;
+  padding: 2px 10px;
 }
