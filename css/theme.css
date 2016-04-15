@@ -5,7 +5,7 @@ Last change:	02/08/15 [fixed Float bug, vf]
 Author:	ewebcraft
 /*------------------------------------------------------------------
 # [Color codes]
-# Main Theme (Yellow): #ffcc00
+# Main Theme (Yellow): #20409a
 # Main Theme (Black): #000
 # Body Text: #666  
 [Table of contents]
@@ -81,7 +81,7 @@ body {
 .title-2 {
   text-transform: uppercase;
   font-family: Montserrat;
-  color: #f4bc16 !important;
+  color: #2eb71c !important;
   font-size: 16px;
 }
 
@@ -108,7 +108,7 @@ body {
   -ms-transition:all 0.5s ease-in 0s;
 }
 .ms-anim-layers a:hover {
-  background-color: #f4bc16;
+  background-color: #2eb71c;
   color: #000;
 }
 .text-uppercase {
@@ -148,7 +148,7 @@ body {
 
 }
 #welcome .welcome-container .welcome-box .welcome-icon {
-  background: #f4bc16;
+  background: #2eb71c;
   text-align: center;
   display: inline-block;
   width: 100%;
@@ -593,7 +593,7 @@ ul.default li:before {
   content: '\f005';
   font-family: fontawesome;
   margin-right: 10px;
-  color:#ffcc00;
+  color:#20409a;
 }
 p {
   font-family: open sans;
@@ -685,11 +685,11 @@ blockquote.right {
 }
 ::selection {
   color: #ffffff;
-  background:#ffcc00;
+  background:#20409a;
 }
 ::-moz-selection {
   color: #ffffff;
-  background:#ffcc00;
+  background:#20409a;
 }
 .eight.columns > h1 {
   color: #212121;
@@ -699,7 +699,7 @@ blockquote.right {
   text-transform: uppercase;
 }
 .counter-line {
-  border: 2px solid #F4BC16;
+  border: 2px solid #2eb71c;
   margin: 20px auto 0;
   width: 53px;
 }	
@@ -718,7 +718,7 @@ blockquote.right {
   color: #666666;
   font-family: open sans;
   font-size: 14px;
-  padding: 2px 24% 28px;
+  padding: 2px 12% 28px;
 }
 .service-details a:hover {
   background-color: #fff;
@@ -808,7 +808,7 @@ blockquote.right {
   transition: all 0.4s ease 0s;
 }
 #sponsers-slider.owl-carousel.owl-theme .owl-controls .owl-buttons div:hover {
-  color: #F4BC16;
+  color: #2eb71c;
 
 }
 
@@ -991,7 +991,7 @@ blockquote, blockquote p {
 blockquote {
 	margin: 0px 0px 20px;
 	padding: 0px 20px 0px 19px;
-	border-left: 4px solid #ffcc00;
+	border-left: 4px solid #20409a;
 }
 blockquote cite {
   display: block;
@@ -1068,7 +1068,7 @@ a:hover{
   color: #000000;
 }
 .menu > li > a:hover {
-  color: #ffcc00 !important;
+  color: #20409a !important;
 }
 a:focus {
   color: #fff;
@@ -1117,7 +1117,7 @@ li p {
   margin-top: 11px;
 }
 .our-service ul li::before {
-  color: #f4bc16;
+  color: #2eb71c;
   content: "";
   font-family: fontawesome;
   font-size: 18px;
@@ -1347,7 +1347,7 @@ form {
 		/*margin-bottom:20px;*/;
 }
 .alert.alert-success {
-  background-color: #f4bc16;
+  background-color: #2eb71c;
   border-radius: 5px;
   height: 50px;
   line-height: 52px;
@@ -1427,7 +1427,7 @@ table th {
   font-size: 12px;
   padding: 10px;
   text-align: center;
-    background-color:#ffcc00;
+    background-color:#20409a;
 }
 table td {
   text-align: center;
@@ -1649,7 +1649,7 @@ dl dt {
   position: relative;
 }
 .jx-container.jx-padding i.fa {
-  color: #F4BC16;
+  color: #2eb71c;
 }
 .jx-container.jx-padding-top {
   padding-top: 80px;
@@ -1723,7 +1723,7 @@ dl dt {
   background: #3A3A3B;
 }
 .jx-container.jx-default-bg .jx-container-slope{
-  background: #FFCC00;
+  background: #20409a;
 }
 .jx-container.jx-white-bg .jx-container-slope{
   background: #fff;
@@ -1733,7 +1733,7 @@ dl dt {
   background: #3A3A3B;
 }
 .jx-container-slope.jx-default-bg {
-  background: #FFCC00;
+  background: #20409a;
 }
 .jx-container-slope.jx-white-bg {
   background: #fff;
@@ -1912,7 +1912,7 @@ dl dt {
     line-height:40px;
     text-align:center;
     cursor:pointer;
-    color:#ffcc00;
+    color:#20409a;
     background:#333;
 }
 .jx-top-menu .jx-right-infobar li.search-box:hover i {
@@ -1920,7 +1920,7 @@ dl dt {
     color: #000000;
 }
 .searchbox-icon:hover i{
-  background: #ffcc00 !important;;
+  background: #20409a !important;;
   color: #000 !important;
 }
 /* Drop Down Menu ====================*/
@@ -2298,7 +2298,7 @@ margin-right: -3px;
   border-bottom: 0px solid #262829;
 }
 .submenu li.col ul li:hover {
-  background: #f4bc16 none repeat scroll 0 0;
+  background: #2eb71c none repeat scroll 0 0;
 }
 /* Submenu 2nd level drop down */
 .submenu li li ul {
@@ -2325,7 +2325,7 @@ margin-right: -3px;
   top:0;
   right:0px;
   line-height: 37px;
-  color:#ffcc00;
+  color:#20409a;
   padding-right:14px;
 }	
 /*-- submenu*/
@@ -2349,7 +2349,7 @@ margin-right: -3px;
 }
 
 .menu li .submenu li.col ul li {
-  border-bottom: 1px solid #f4bc16;
+  border-bottom: 1px solid #2eb71c;
 }
 .jx-copy-right a {
   color: #676767 !important;
@@ -2412,8 +2412,8 @@ margin-right: -3px;
 }
 /* One-page menu */
 .mPS2id-highlight{
-  border-top:6px solid #ffcc00 !important;
-  color:#ffcc00 !important;
+  border-top:6px solid #20409a !important;
+  color:#20409a !important;
   
 }
 /*---------------------------------------------------------------
@@ -2459,7 +2459,7 @@ margin-right: -3px;
   padding: 70px 0;
 }
 .blog-hover a:hover {
-  color: #f4bc16 !important;
+  color: #2eb71c !important;
 }
 .blog-info-block a{
   color: #555;
@@ -2536,7 +2536,7 @@ margin-right: -3px;
   color:#000
 }
 .jx-blog-1 .title a:hover,.jx-blog-2 .title a:hover{
-  color:#ffcc00
+  color:#20409a
 }
 .jx-blog-2 .jx-blog-item {
 	padding:0px 0px 40px 0px;
@@ -2564,7 +2564,7 @@ margin-right: -3px;
   font-family: open sans;
 }
 .jx-default-about ul li::before {
-  color: #f4bc16;
+  color: #2eb71c;
   content: "";
   font-family: fontawesome;
   font-size: 16px;
@@ -2629,7 +2629,7 @@ margin-right: -3px;
   text-transform: uppercase;
 }
 .Testimonial .testimonial-block i {
-  color: #f4bc16;
+  color: #2eb71c;
   font-size: 30px;
   margin-bottom: 26px;
 }
@@ -2688,7 +2688,7 @@ background-repeat:no-repeat;
 	text-transform: uppercase;
 }
 .jx-single-post-tag li:hover {
-	border-color:#ffcc00;
+	border-color:#20409a;
 }
 .tag-title{
 	float:left;
@@ -2833,7 +2833,7 @@ ul.comments .comment-block .date {
   background:#eee;  
 }
 .jx-pagination li a:hover{
-  background:#ffcc00;
+  background:#20409a;
 }
 .jx-pagination li a{
  color:#333;
@@ -2844,7 +2844,7 @@ ul.comments .comment-block .date {
  font-size:16px; 
 }
 .jx-pagination li.selected a{
- background:#ffcc00;
+ background:#20409a;
  color:#000;
  font-size:16px;
   padding:5px 12px;
@@ -2906,7 +2906,7 @@ ul.comments .comment-block .date {
   width: 98%;
 }
 .contact-submit .jx-submit {
-  background: #ffcc00 none repeat scroll 0 0;
+  background: #20409a none repeat scroll 0 0;
   border: medium none;
   color: #fff;
   font-family: open sans;
@@ -2955,7 +2955,7 @@ ul.comments .comment-block .date {
 .jx-contact-info .icon {
 	height: 49px;
 	width: 49px;
-	color: #ffcc00;
+	color: #20409a;
 	font-size: 40px;
 	text-align: center;
 	float:left;
@@ -3001,7 +3001,7 @@ ul.comments .comment-block .date {
 }
 .jx-breadcrumb{
   padding-top:25px;
-  color:#ffcc00;
+  color:#20409a;
   font-size:19px;
   font-family:oswald
 }
@@ -3012,7 +3012,7 @@ ul.comments .comment-block .date {
   text-transform: uppercase;
 }
 .jx-titlebar a {
-  color: #f4bc16;
+  color: #2eb71c;
   font-family: open sans;
   font-size: 14px;
   text-transform: uppercase;
@@ -3061,7 +3061,7 @@ ul.comments .comment-block .date {
   margin: 0 0 13px !important;
 }
 .ms-anim-layers .btn-yellow {
-  background-color: #f4bc16;
+  background-color: #2eb71c;
   border-color: transparent; 
 }
 .ms-anim-layers .btn-yellow:hover {
@@ -3093,7 +3093,7 @@ ul.comments .comment-block .date {
 	width: 10px;
 	height: 10px;
 	margin: 0px auto;
-	border-top: 21px solid #ffcc00;
+	border-top: 21px solid #20409a;
 	border-left: 13px solid transparent;
 	border-right: 13px solid transparent;
   position: relative;
@@ -3171,7 +3171,7 @@ ul.comments .comment-block .date {
   margin-bottom: 20px;
   margin-left: 0;
   border: none;
-  background-color: #ffcc00;
+  background-color: #20409a;
 }
 .jx-section-title-4.jx-light .jx-title{
   color:#fff;
@@ -3248,7 +3248,7 @@ ul.comments .comment-block .date {
 	text-align:center;
 }
 .jx-footer-section .jx-footer-social-icon ul li a {
-	color:#ffcc00;
+	color:#20409a;
 }
 .jx-footer-section .jx-footer-social-icon ul li a:hover {
 }
@@ -3294,7 +3294,7 @@ ul.comments .comment-block .date {
   text-align: center;
   height: 2em;
   color: #e74c3c;
-  background: #ffcc00;
+  background: #20409a;
   font-style: normal;
   text-transform: uppercase;
   opacity: 0.8;
@@ -3341,7 +3341,7 @@ ul.comments .comment-block .date {
   line-height: 55px;
   margin-left:22px;
   text-align: center;
-  color: #ffcc00;
+  color: #20409a;
   font-size: 16px;
   text-align: center;
 }
@@ -3359,7 +3359,7 @@ ul.comments .comment-block .date {
 }
 /* Footer Widget Title ================================= */
 .jx-footer h3 {
-  color: #ffcc00;
+  color: #20409a;
   padding: 10px 0 3px;
 }
 .jx-footer p {
@@ -3400,7 +3400,7 @@ ul.comments .comment-block .date {
   line-height: 39px;
 }
 .jx-footer .icon {
-  border: 1px solid #ffcc00;
+  border: 1px solid #2eb71c;
   border-radius: 50%;
   float: left;
   height: 40px;
@@ -3409,7 +3409,7 @@ ul.comments .comment-block .date {
   width: 40px;
 }
 .jx-servicelist-1 .icon {
-  background: #f4bc16 none repeat scroll 0 0;
+  background: #2eb71c none repeat scroll 0 0;
   height: 42px;
   margin-top: 34px;
   position: relative;
@@ -3424,7 +3424,7 @@ ul.comments .comment-block .date {
 }
 
 .jx-servicelist-1 .icon::before {
-  border-bottom: 15px solid #f4bc16;
+  border-bottom: 15px solid #2eb71c;
   border-left: 33px solid transparent;
   border-right: 33px solid transparent;
   content: "";
@@ -3437,7 +3437,7 @@ ul.comments .comment-block .date {
 .jx-servicelist-1 .icon::after {
   border-left: 33px solid transparent;
   border-right: 33px solid transparent;
-  border-top: 15px solid #f4bc16;
+  border-top: 15px solid #2eb71c;
   bottom: -14px;
   content: "";
   height: 0;
@@ -3456,7 +3456,7 @@ ul.comments .comment-block .date {
 	width: 70px;
 	margin-top: 28px;
 	height: 3px;
-	border-bottom: solid 3px #ffcc00;
+	border-bottom: solid 3px #20409a;
 }
 .jx-footer-social ul{
   width:100%;
@@ -3471,7 +3471,7 @@ ul.comments .comment-block .date {
   margin-right:10px;
 }
 .jx-footer-social li i {
-  background: #1874c1 none repeat scroll 0 0 !important;
+  background: #20409a none repeat scroll 0 0 !important;
   color: #fff !important;
   font-size: 20px;
   height: 38px;
@@ -3515,8 +3515,8 @@ ul.comments .comment-block .date {
 #subscribe .input-group-btn {
   height: 50px;
   border-radius: 0px;
-  background: #f4bc16;
-  border-color: #f4bc16;
+  background: #2eb71c;
+  border-color: #2eb71c;
   transition:all 0.4s ease-in 0s;
   -webkit-transition:all 0.4s ease-in 0s;
   -moz-transition:all 0.4s ease-in 0s;
@@ -3551,7 +3551,7 @@ ul.comments .comment-block .date {
   padding: 15px 20px;
 }
 .subscribe button {
-  background-color: #f4bc16;
+  background-color: #2eb71c;
   color: #fff;
   font-size: 24px !important;
   padding: 9.5px 17px !important;
@@ -3566,7 +3566,7 @@ ul.comments .comment-block .date {
   text-transform: uppercase;
 }
 .subscribe button::before {
-  color: #f4bc16;
+  color: #2eb71c;
   content: "";
   font-family: fontawesome;
   font-size: 44px;
@@ -3592,7 +3592,7 @@ ul.comments .comment-block .date {
   color: #fff !important;
 }
 .jx-footer-recent-post ul li a:hover {
-  color: #F4BC16 !important;
+  color: #2eb71c !important;
 }
 .jx-sidebar-block.mb40 hr {
   border-color: #1874c1;
@@ -3604,7 +3604,7 @@ ul.comments .comment-block .date {
 }
 .jx-sidebar-get-in-touch .icon i {
   line-height: 28px;
-  color: #F4BC16;
+  color: #2eb71c;
 }
 .jx-sidebar-get-in-touch .description p {
   margin-top: 14px !important;
@@ -3647,7 +3647,7 @@ padding-bottom:23px;
 }
 .jx-footer-recent-post ul li:last-child { border-bottom: none;  }
 .jx-footer-recent-post .date {
-  color: #f4bc16;
+  color: #2eb71c;
   font-family: montserrat;
   font-size: 14px;
   padding-bottom: 9px;
@@ -3666,7 +3666,7 @@ padding-bottom:23px;
   font-size: 14px;
 }	
 .jx-footer-recent-post .description a:hover{
-	color: #ffcc00;
+	color: #20409a;
 }
 /* Footer ADDRESS =====*/
 .jx-footer-address ul {
@@ -3680,7 +3680,7 @@ padding-bottom:23px;
 .jx-footer-address  li i {
     float: left;
 	font-size: 18px;
-	color: #ffcc00;
+	color: #20409a;
 	margin-right: 14px;
 	text-align: center;
 	width: 16px;
@@ -3747,7 +3747,7 @@ padding-bottom:23px;
   color:#333;
 }
 .jx-switch li:hover i{
- background:#ffcc00;
+ background:#20409a;
 }
 /* Inventory Top Options */
 .inventory-options-bar .jx-sorting-box{
@@ -3811,7 +3811,7 @@ padding-bottom:23px;
 .jx-sidebar-search  .jx-form-wrapper button {
     height: 40px;
     width: 40px;
-	background:#ffcc00;
+	background:#20409a;
 	border-radius:0
 }
 .jx-sidebar-search .jx-form-wrapper button::-moz-focus-inner { /* remove extra button spacing for Mozilla Firefox */
@@ -4080,7 +4080,7 @@ padding-bottom:23px;
   padding:6px 12px; 
   margin-right:10px;
   border-radius:5px;
-  background:#ffcc00;
+  background:#20409a;
 }
 .jx-sidebar-tags li:hover{
   background:#000 ;
@@ -4277,7 +4277,7 @@ padding-bottom:23px;
 	color:#000000;
 }
 .inventory-filter-options-list .item a:hover {
-	color:#ffcc00;
+	color:#20409a;
 }
 .inventory-filter-options-list .badge {
     display: inline-block;
@@ -4347,7 +4347,7 @@ padding-bottom:23px;
 }
 .filter-btn .btn {
 	float: right;
-	background: #ffcc00;
+	background: #20409a;
 	border: none;
 	padding: 10px 20px;
 	font-size: 12px;
@@ -4409,7 +4409,7 @@ padding-top:20px;
     font-weight: 600;
     font-size: 12px;
     position: relative;
-    background-color: #ffcc00;
+    background-color: #20409a;
     border-radius: 0px 3px 3px 0px;
     margin-left:15px;
     margin-top:50px;
@@ -4418,7 +4418,7 @@ padding-top:20px;
 }
 .single-vehicle-details .badge-premium-listing::before {
     border-bottom: 12px solid transparent;
-    border-right: 12px solid #ffcc00;
+    border-right: 12px solid #20409a;
     border-top: 12px solid transparent;
     content: "";
     height: 0px;
@@ -4466,7 +4466,7 @@ padding-top:20px;
 }
 .single-vehicle-details .jx-inventory-view .figure span {
 	padding: 5px 20px;
-	background: #ffcc00;
+	background: #20409a;
 }
 .single-vehicle-details .jx-inventory-view .additional-images ul {
 	margin: 0px 0px;
@@ -4568,10 +4568,10 @@ padding-top:20px;
 	color:#000000;
 }
 .jx-list-faq ul li a:hover {
-	color:#ffcc00;
+	color:#20409a;
 }
 .jx-list-faq ul li.active a {
-    color: #ffcc00;
+    color: #20409a;
 	font-weight:bold;
 }
 /*---------------------------------------------------------------
@@ -4620,7 +4620,7 @@ padding-top:20px;
     padding: 5px 0px 0px 8px;
 }
 .jx-our-inventory .our-inventory-btn {
-	background:#ffcc00;
+	background:#20409a;
 	border:none;
 	float:right;
 	font-size: 15.5px;
@@ -4732,7 +4732,7 @@ padding-top:20px;
   width: 70px;
   height: 3px;
   border-radius: 4px;
-  background: #f4bc16;
+  background: #2eb71c;
   display: inline-block;
 }
 #about-skills .skills-section {
@@ -4798,7 +4798,7 @@ padding-top:20px;
   font-weight: bold;
   border-radius: 0px;
   background: transparent;
-  border-bottom: 1px solid #f4bc16 !important; 
+  border-bottom: 1px solid #2eb71c !important; 
   border: none;
   padding: 10px;
   cursor: pointer;
@@ -4884,7 +4884,7 @@ padding-top:20px;
 }
 #downloadable-collateral .downloadable-item a.square-button{
   color: #fff;
-  background-color: #f37321;
+  background-color: #20409a;
   display: inline-block;
   font-size: 12px;
   padding: 2px 10px;
@@ -4954,6 +4954,12 @@ header.mobile{
 }
 #jx-main-menu.menu li{
   margin: 0;
+}
+#about-us .jx-image-wrapper{
+  margin-bottom: 5px;
+}
+#about-us .col-md-6{
+  text-align: center;
 }
 @media (max-width: 480px) {
   span.phone.desktop, span.email.desktop{
