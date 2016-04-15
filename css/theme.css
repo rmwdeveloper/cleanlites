@@ -1765,7 +1765,7 @@ dl dt {
   padding: 15px 0px;
   position: absolute;
   text-align: center;
-  top: 9%;
+  top: 14%;
   transform: translateY(-8%);
 }
 /* Fixed Menu */
@@ -2213,7 +2213,7 @@ dl dt {
   border: medium none;
 }
 .menu > li:last-child a{
- padding-right: 0 !important;
+ padding-right: 0 ;
 }
 .menu .jx-mega-menu-title{
   color:#000 !important;
@@ -4937,6 +4937,23 @@ header.mobile{
 }
 .mobile_btn_wrapper.toggled .slicknav_btn{
   top: 0;
+}
+
+#cta {
+  bottom: -4px;
+}
+#cta li a{
+  color: white;
+  padding: 5px 10px;
+}
+#cta .green a{
+  background-color: #20409a;
+}
+#cta .blue a{
+  background-color: #2eb71c;
+}
+#jx-main-menu.menu li{
+  margin: 0;
 }
 @media (max-width: 480px) {
   span.phone.desktop, span.email.desktop{
