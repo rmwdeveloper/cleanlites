@@ -94,7 +94,7 @@ body {
   text-transform: uppercase;
 }
 .ms-anim-layers a {
-  background-color: #1874c1;
+  background-color: #20409a;
   /*border: medium none;*/
   border-radius: 0;
   color: #fff;
@@ -160,7 +160,7 @@ body {
   -ms-transition:all 0.5s ease-in 0s;
 }
 #welcome .welcome-container .welcome-box:hover .welcome-icon {
-  background: #1874c1;
+  background: #20409a;
 }
 #welcome .welcome-container .welcome-box .welcome-info h1 {
   font-family: 'Montserrat';
@@ -708,8 +708,8 @@ blockquote.right {
 }
 .service-btn .service-button {
   background-color: transparent;
-  border: 2px solid #1874c1;
-  color: #1874c1;
+  border: 2px solid #20409a;
+  color: #20409a;
   font-family: montserrat;
   font-size: 18px;
   text-decoration: none;
@@ -799,7 +799,7 @@ blockquote.right {
 #sponsers-slider.owl-carousel.owl-theme .owl-controls .owl-buttons div {
   background: transparent;
   border-radius: 0;
-  color: #1874C1;
+  color: #20409a;
   font-size: 23px;
   line-height: 32px;
   opacity: 1;
@@ -1803,7 +1803,7 @@ dl dt {
 }
 /* Top Menu ==================== */
 .jx-top-menu {
-  background: #1874c1 none repeat scroll 0 0;
+  background: #20409a none repeat scroll 0 0;
   height: 40px;
   overflow: hidden;
   position: relative;
@@ -2966,7 +2966,7 @@ ul.comments .comment-block .date {
   padding-left: 9px;
 }
 .contact-us-form .icon {
-  border: 1px solid #1874c1;
+  border: 1px solid #20409a;
   border-radius: 50%;
   height: 66px;
   margin-top: 4px;
@@ -2984,10 +2984,10 @@ ul.comments .comment-block .date {
   line-height: 63px;
 }
 .contact-us-form .icon:hover{
-	background-color: #1874C1;
+	background-color: #20409a;
     transform: rotateX(-7deg) scale(1.09);
     transition: all 0.7s ease 0s;
-	border-color: #1874C1;
+	border-color: #20409a;
 	
 }
 .contact-us-form .icon:hover i {
@@ -3053,7 +3053,7 @@ ul.comments .comment-block .date {
 }
 
 .jx-title-top-line {
-  border-top: 1px solid #1874c1;
+  border-top: 1px solid #20409a;
   margin: 0 auto;
   max-width: 156px;
 }
@@ -3065,7 +3065,7 @@ ul.comments .comment-block .date {
   border-color: transparent; 
 }
 .ms-anim-layers .btn-yellow:hover {
-  background-color: #1874c1;
+  background-color: #20409a;
   color: #fff;
 }
 .ms-anim-layers .btn-try-class {
@@ -3102,7 +3102,7 @@ ul.comments .comment-block .date {
 .jx-black-title-top-arrow-white::after {
   background: #fff none repeat scroll 0 0;
   bottom: 1px;
-  color: #1874c1;
+  color: #20409a;
   content: "";
   font-family: fontawesome;
   font-size: 28px;
@@ -3492,7 +3492,7 @@ ul.comments .comment-block .date {
 
 #subscribe {
   padding: 40px 0;
-  background: #1874c1;
+  background: #20409a;
 }
 #subscribe .row {
   margin: 0px;
@@ -3536,7 +3536,7 @@ ul.comments .comment-block .date {
 }
 
 /*.subscribe {
-  background-color: #1874c1 !important;
+  background-color: #20409a !important;
   padding: 3% 0 !important;
 }
 .subscribe .form-control {
@@ -3595,7 +3595,7 @@ ul.comments .comment-block .date {
   color: #2eb71c !important;
 }
 .jx-sidebar-block.mb40 hr {
-  border-color: #1874c1;
+  border-color: #20409a;
   width: 20%;
 }
 .jx-sidebar-get-in-touch {
@@ -3614,10 +3614,10 @@ padding-bottom:23px;
 }
 
 .jx-sidebar-get-in-touch .icon:hover{
-	background-color: #1874C1;
+	background-color: #20409a;
     transform: rotateX(-7deg) scale(1.09);
     transition: all 0.7s ease 0s;
-	border-color: #1874C1;
+	border-color: #20409a;
 	
 }
 
@@ -3636,7 +3636,7 @@ padding-bottom:23px;
 	color:#fff;
 	}
 .jx-sidebar-get-in-touch .icon {
-  border: 1px solid #1874C1;
+  border: 1px solid #20409a;
   border-radius: 50%;
   float: left;
   height: 30px;
@@ -4875,12 +4875,7 @@ padding-top:20px;
   margin-bottom: 19px;
 }
 #downloadable-collateral .row {
-  display: -webkit-box;  /* OLD - iOS 6-, Safari 3.1-6, BB7 */
-  display: -ms-flexbox;  /* TWEENER - IE 10 */
-  display: -webkit-flex; /* NEW - Safari 6.1+. iOS 7.1+, BB10 */
-  display: flex;         /* NEW, Spec - Firefox, Chrome, Opera */
-  -webkit-justify-content: center; 
-  justify-content: center; 
+
 }
 #downloadable-collateral .downloadable-item a.square-button{
   color: #fff;
@@ -4923,7 +4918,8 @@ header.mobile{
   z-index: 108;
 }
 .mobile_btn_wrapper.toggled{
-  background-color: #25aae1;
+  background-color: #20409a;
+  top: 0;
 }
 #mobile-menu.mobile-nav {
 
@@ -4960,6 +4956,18 @@ header.mobile{
 }
 #about-us .col-md-6{
   text-align: center;
+}
+header .jx-header-1{
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+  width: 100%;
+}
+.mobile_btn_wrapper{
+  z-index: 1001;
+}
+#main-slider{
+  margin-top: 116px;
 }
 @media (max-width: 480px) {
   span.phone.desktop, span.email.desktop{
