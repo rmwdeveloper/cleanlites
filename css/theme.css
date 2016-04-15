@@ -639,7 +639,7 @@ table {
 [2.0 General ]
 */
 body {
-  background: #ffcc00;
+  background: #fff;
   font: 14px/20px 'Raleway',Arial,Helvetica,sans-serif;
   color: #666;
   font-weight: 400;
@@ -1762,7 +1762,7 @@ dl dt {
   z-index: 999;
 }
 .jx-header-logo {
-  padding: 15px;
+  padding: 15px 0px;
   position: absolute;
   text-align: center;
   top: 9%;
@@ -4896,4 +4896,61 @@ padding-top:20px;
 #about-us ul {
   list-style: square;
   padding-top: 79px;
+}
+
+
+
+.slicknav_btn {
+
+  margin: 19px 21px 0 0 !important;
+
+  padding: 5px 9px;
+
+}
+.mobile_btn_wrapper.toggled .slicknav_btn{
+  margin: 21px 21px 0 0 !important;
+  padding: 5px 9px;
+}
+
+header.mobile{
+  display: none;
+}
+.mobile_btn_wrapper{
+  
+  height: 100px !important;
+  position: fixed;
+  width: 100%;
+  z-index: 108;
+}
+.mobile_btn_wrapper.toggled{
+  background-color: #25aae1;
+}
+#mobile-menu.mobile-nav {
+
+  display: block !important;
+  position: fixed;
+  width: 100%;
+  top: 77px;
+
+  z-index: 10000;
+
+}
+.mobile_btn_wrapper.toggled .slicknav_btn{
+  top: 0;
+}
+@media (max-width: 480px) {
+  span.phone.desktop, span.email.desktop{
+    display: none;
+  }
+  .jx-left-infobar  span.phone.mobile, .jx-left-infobar  span.email.mobile{
+    display: inline;
+  }
+}
+@media (min-width: 481px){
+    span.phone.desktop, span.email.desktop{
+      display:inline;
+    }
+    .jx-left-infobar  span.phone.mobile, .jx-left-infobar  span.email.mobile{
+       display: none;
+  }
 }

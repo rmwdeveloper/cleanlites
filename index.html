@@ -33,7 +33,7 @@
     <link rel="stylesheet" href="css/plugins.css">    
     <link rel="stylesheet" type="text/css"  href="/resources/css/fonts.css">        
     <!-- Skin CSS -->
-	<link id="skin" rel="stylesheet" href="css/sun.css">
+
         
     <!-- Icon Fonts -->
     <link rel="stylesheet" href="css/font-awesome.css" type="text/css" media="screen">    
@@ -82,9 +82,11 @@
     
     <!-- EOF Loader -->
 <!--button-->
+<div class="mobile_btn_wrapper">
 <button class="slicknav_btn">
     <i class="fa fa-tasks"></i>
 </button>
+</div>
    <ul class="slicknav menu" id="mobile-menu" style="display:none">
         <!-- Item 1 -->
                                 <li class="with-sub">
@@ -153,11 +155,19 @@
                         <div class="eight columns left">
                             
                             <ul class="jx-left-infobar">
-                                <li><a href="#"><i class="fa fa-phone"></i><span>(0800) 12 345 546</span></a></li>
-                                <li><a href="#"><i class="fa fa-envelope"></i><span>info@ewebcraft.com</span></a></li>
+
+                                <li><a href="tel:5134101786"><i class="fa fa-phone"></i>
+                                <span class="phone desktop">(0800) 12 345 546</span>
+                                <span class="phone mobile">Call</span>
+                                </a></li>
+
+                                <li><a href="mailto:travis@colletorofreplacement.com"><i class="fa fa-envelope"></i>
+                                <span class="email desktop">mail@email.com</span>
+                                <span class="email mobile">Email</span>
+                                </a></li>
+                                
                                 <li><a href="#"><span>Locations</span></a></li>
                             </ul>
-                        
                         </div>
                         <!-- Left Items -->
                         
@@ -181,7 +191,7 @@
                 </div>
                 <!-- Top Menu --> 
       
-            <div class="jx-header jx-white-bg  jx-sticky">
+            <div id="header-bar" class="jx-header jx-white-bg  jx-sticky">
             	<div class="jx-container-slope jx-bottom-slope jx-right-slope jx-white-bg"></div>
                 <!-- container slope --> 
                 
